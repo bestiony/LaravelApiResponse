@@ -27,7 +27,5 @@
                 "Bestiony\\LaravelApiResponse\\LaravelApiResponseServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
