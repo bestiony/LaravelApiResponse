@@ -1,6 +1,7 @@
 {
     "name": "bestiony/laravel-api-response",
     "description": "A wrapper around Laravel response function that returns a consistent API response o failure or success",
+    "type": "library",
     "license": "MIT",
     "version": "1.0.0",
     "autoload": {
@@ -11,6 +12,7 @@
     },
     "authors": [
         {
+            "role": "Developer",
             "name": "Abderrahman Fodili",
             "email": "bestiony12373@gmail.com"
         }
@@ -26,7 +28,6 @@
             ]
         }
     },
-    "minimum-stability": "dev"
-    
-
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
