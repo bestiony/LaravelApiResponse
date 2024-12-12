@@ -1,0 +1,29 @@
+{
+    "name": "bestiony/laravel-api-response",
+    "description": "A wrapper around Laravel response function that returns a consistent API response o failure or success",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Bestiony\\LaravelApiResponse\\": "src/",
+            "Bestiony\\LaravelApiResponse\\Traits\\": "src/traits/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abderrahman Fodili",
+            "email": "bestiony12373@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/http": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bestiony\\LaravelApiResponse\\LaravelApiResponseServiceProvider"
+            ]
+        }
+    }
+}
